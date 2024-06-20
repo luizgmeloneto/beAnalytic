@@ -1,0 +1,5 @@
+{
+    "project_id": "news-information-423715",
+    "destination_table": "raw.tb_news",
+    "if_exists": "replace"
+  }
