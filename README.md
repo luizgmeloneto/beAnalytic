@@ -38,11 +38,15 @@ git clone 'https://github.com/luizgmeloneto/beAnalytic.git'
 
 ## Códigos SQL
 
-    - Rotina_1 : Aqui iremos pegar nossa tabela bruta e iremos atribuir os tipos corretos de cada coluna junto com os nomes adequados.
+    - Rotina_1 : Aqui iremos pegar nossa tabela bruta e iremos atribuir os tipos corretos de cada coluna 
+    junto com os nomes adequados.
 
-    - Rotina 2 : Aqui iremos transformar nossos dados do BigQuery em parquet e enviar para o Google Cloud Storage.
+    - Rotina 2 : Aqui iremos transformar nossos dados do BigQuery (Data Warehouse) em parquet e enviar 
+    para o Google Cloud Storage (Datalake).
 
-    - Data_quality : Aqui iremos fazer uma tabela rodar diariamente e armazenar dados de cada uma das tabelas na camada raw e com isso conseguiremos analizar caso haja algum alteração muito grande nos dados e identificar erros com mais facilidade.
+    - Data_quality : Aqui iremos fazer uma tabela rodar diariamente e armazenar dados de cada uma das tabelas
+    na camada raw e com isso conseguiremos analizar caso haja algum alteração muito grande nos dados e identificar
+    erros com mais facilidade.
 
 
 ## Autor
